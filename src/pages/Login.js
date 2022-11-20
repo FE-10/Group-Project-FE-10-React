@@ -59,12 +59,6 @@ function Login() {
             Login
           </button>
 
-          <Link to={<Register />}>
-            <button type="submit" className="btn btn-dark btn-lg btn-block">
-              Register
-            </button>
-          </Link>
-
           {flag && (
             <Alert color="primary" variant="warning">
               Info salah, harap isi dengan benar
