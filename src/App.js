@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <Router>
-        <Login />
         <Routes>
           <Route path="/Login" element={<Login />} />
         </Routes>
